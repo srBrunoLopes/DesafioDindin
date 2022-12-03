@@ -1,0 +1,144 @@
+/* HEADER */
+#principal .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 125px 206px 66px;
+}
+
+#principal .container div h1{
+    color: #FF4081;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 69px;
+    max-width: 488px;
+    margin-bottom: 19px;
+}
+
+#principal .container div span{
+    color: #555;
+    max-width: 462px;
+    margin-bottom: 38px;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+}
+
+#principal .container div a{
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 31px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    width: fit-content;
+    text-decoration: none;
+    padding: 8px 26px;
+}
+
+#principal .container div{
+    display: flex;
+    flex-direction: column;    
+}
+
+/* CURSOS */
+
+#cursos .caixas{
+    height: 730px;
+}
+
+#cursos .caixas h2{
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    color: #FF4081;
+    margin-top: 43px;
+    margin-bottom: 23px;
+}
+
+#cursos .caixas p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;    
+    max-width: 293px;
+    min-height: 60px;
+    margin-bottom: 26px;
+}
+
+#cursos .caixas a{
+    padding: 9px 15px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 60px;
+    width: 216px;
+}
+
+#cursos .caixas img{
+    /* margin: 109px 0 43px 156px; */
+    margin: auto;
+}
+
+/* COMENTARIOS*/
+
+#comentario h2{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 50px;
+    color: #009688;
+    text-transform: uppercase;
+    margin-top: 119px;
+    margin-left: 128px;
+}
+
+#comentario .post article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* SEÇÃO DE CONTEUDOS */
+
+#conteudos h2{
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 43px;
+    color: #009688;
+    text-transform: uppercase;
+    margin: 91px 0 91px 128px;    
+}
+
+#conteudos .box article img{
+    margin-bottom: 11px;
+}
+
+#conteudos .box p{
+    max-width: 319px;
+    min-height: 114px;
+    text-align: left;
+    margin-bottom: 101px;
+}
+
+#conteudos .box strong{
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 31px;
+    color: #009688;
+}
+
+#conteudos a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FF4081;
+    border: 2px solid #FF4081;
+    border-radius: 62px;
+    padding: 10px 41px;
+    margin: 0px 569px 53px 582px;
+}

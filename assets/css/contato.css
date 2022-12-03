@@ -1,0 +1,55 @@
+#contato .form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contato .form h1{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 46px;
+    color: #FF4081;
+    max-width: 154px;
+    min-height: 46px;
+    margin-top: 105px;
+    margin-bottom: 44px;
+}
+
+#contato .form form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#contato .form form input{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    width: 493px;
+    height: 32px;
+}
+
+#contato .form form textarea{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    resize: none;
+    width: 493px;
+    height: 193px;
+}
+
+#contato .form button{
+    border: none;
+    background: #FF4081;
+    border-radius: 50px;
+    max-width: 108px;
+    min-width: 32px;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: lowercase;
+    color: #FFFFFF;
+    margin-bottom: 102px;
+    cursor: pointer;
+}

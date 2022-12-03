@@ -1,0 +1,187 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+}
+
+header img {
+    margin-left: 85px;
+}
+
+header nav {
+    margin-right: 103px;
+    padding: 18px;
+}
+
+header nav a {
+    font-weight: 700;
+    font-size: 20px;
+    color:#fff;
+    padding:18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer{
+
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    background: #2E948A;
+    box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    min-height: 207px;
+}
+
+footer img{
+    width: 244px;
+    height: 77px;
+}
+
+footer ul li{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+footer div a{
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 62px;
+    padding: 14px 41px;
+    box-sizing: border-box;
+}
+
+footer div{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#cursos {
+    display:flex;
+    flex-direction: column;
+    padding-top: 81px;
+    padding-left: 81px;
+}
+
+#cursos h1 {
+    font-weight: 700;
+    color: #FF4081;
+    font-size: 60px;
+    padding-left: 100px;
+}
+
+#cursos p {
+    font-weight: 400;
+    font-size: 20px;
+    color: #555555;
+    padding-left: 100px;
+}
+
+#listadecursos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 95 98 202 82px;
+    
+}
+
+#listadecursos div {
+    max-width: 1400px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;
+
+}
+
+#listadecursos div article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 90px;
+    
+}
+
+#poupando {
+
+    border-top: 5px solid #C4C4C4;
+    border-bottom: 5px solid #C4C4C4;
+    display: flex;
+    align-content: center;
+    
+}
+
+#listadecursos div article div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 830px;
+    padding-left: 40px;
+}
+
+#listadecursos div article div h2 {
+    font-size: 35px;
+    font-weight: 700;
+    color: #FF4081;
+    padding-bottom: 37px;
+}
+
+#listadecursos div article div p {
+    font-size: 18px;
+    font-weight: 300px;
+    color: #000;
+    padding-bottom: 50px;
+}
+
+#listadecursos div article div button {
+    font-size: 20px;
+    font-weight: 400px;
+    color: #fff;
+    background-color: #419488;
+    border-radius: 62px;
+    padding: 12px 12px;
+    max-width: 233px;
+
+}
+
+#listadecursos div article div a {
+    color: #fff;
+    text-decoration: none;
+}
+

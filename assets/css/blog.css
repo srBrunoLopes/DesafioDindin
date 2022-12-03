@@ -1,0 +1,72 @@
+#container .cabecalho{
+    display: flex;
+    justify-content: center; 
+}
+main div{
+    background-color: #FFFFFF;
+}
+
+#container .cabecalho h1{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 54px;
+    color: #009688;
+    text-transform: uppercase;
+    max-width: 512px;
+    min-height: 108px;
+    margin-top: 122px;
+    margin-left: 239px;
+}
+
+#container .cabecalho p{
+    max-width: 461px;
+    min-height: 110px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 40px;
+    margin-bottom: 162px;
+    margin-left: 239px;
+}
+
+#container img{
+    margin: 48px 210px 89px 125px;
+}
+
+#noticia .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 120px;
+    margin: 109px 113px 170px 171px;
+}
+
+#noticia div{
+    background-color: #F6F6F6;
+    display: flex;
+    justify-content: center;
+}
+
+#noticia .menu h2{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 34px;
+    display: flex;
+    align-items: center;
+    color: #FF4081;
+    margin: 19px 0px 19px 0px;
+}
+
+#noticia .menu p{
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    text-align: left;
+    max-width: 516px;
+    min-height: 80px;
+}
